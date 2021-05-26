@@ -810,6 +810,9 @@ label {
 }
 
 @media (max-width: 768px) {
+    .conditions .condition:last-child {
+        margin-top: 100px;
+    }
     header .foil-2 {
         display: none;
     }
