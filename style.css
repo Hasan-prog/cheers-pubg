@@ -158,10 +158,12 @@ header {
 .platter {
     background-image: url('assets/img/platter1.png');
     background-size: cover;
+    background-position: center;
     height: 720px;
     position: relative;
-    padding: 32px 65px 146px 65px;
+    padding: 64px 65px 146px 65px;
     z-index: 1;
+    margin-top: -28px;
 }
 .platter .platter-btn-1 {
     width: 217px;
@@ -724,6 +726,9 @@ label {
 #textModal .modal-dialog {
     max-width: 630px;
 }
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
 
 
 @media (max-width: 1200px) {
@@ -852,9 +857,129 @@ label {
         height: 1170px;
     }
     #circle {
-        height: 1240px;
+        height: 1140px;
     }
     #circle .bg-img {
-        height: 1400px;
+        height: 1300px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .platter {
+        padding: 32px;
+    }
+    header {
+        height: auto;
+    }
+    .composition-1 .helmet {
+        width: 210px;
+        right: 50px;
+        bottom: 50px;
+    }
+    .composition-1 .circle {
+        width: 150px;
+        right: 0;
+    }
+    #codeModal {
+        width: 95%;
+    }
+    #codeModal>img {
+        height: 620px;
+    }
+    .modal {
+        top: 5%;
+    }
+    .conditions {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .fire {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #conditions .bg-img {
+        height: 1210px;
+    }
+    #conditions {
+        height: 1040px;
+    }
+    .circle-system {
+        transform: scale(0.8);
+    }
+    #video .bg-img {
+        min-height: 500px;
+    }
+    #video {
+        height: 500px;
+    }
+    .video .video-foil-1 {
+        width: 190px;
+        bottom: -73px;
+        right: -34px;
+    }
+    .video .video-foil-2 {
+        width: 190px;
+        top: -30px;
+        right: -1px;
+    }
+    .video .video-foil-3 {
+        display: block;
+        height: 240px;
+        top: -23px;
+        left: -43px;
+    }
+    #winners {
+        height: 970px;
+    }
+    .week-trigger {
+        white-space: nowrap
+    }
+    .week-triggers {
+        justify-content: left;
+        padding-left: 24px;
+        width: 100%;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .week-triggers:last-child {
+        padding-right: 24px;
+    }
+    .hide-on-mob {
+        display: none;
+    }
+    .winners-table td {
+        padding: 8px 16px 20px 16px;
+    }
+    td {
+        font-size: 16px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+    footer .wrap {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        flex: 1 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .wrap img {
+        justify-self: center;
+    }
+    footer .socials {
+        justify-content: center;
+    }
+    footer * {
+        margin-top: 16px;
+    }
+    #faqs {
+        height: 1140px;
+    }
+    #faqs .bg-img {
+        height: 1300px;
     }
 }
