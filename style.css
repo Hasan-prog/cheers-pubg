@@ -982,4 +982,19 @@ label {
     #faqs .bg-img {
         height: 1300px;
     }
+    #textModal p {
+        font-size: 10px;
+        color: aliceblue;
+        line-height: 12px;
+    }
+    .modal h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #textModal {
+        width: 95%;
+    }
+    #textModal>img {
+        height: 580px;
+    }
 }
