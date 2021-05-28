@@ -666,6 +666,25 @@ video {
 .modal h2 {
     font-size: 32px;
 }
+.alert-modal h2 {
+    font-size: 24px!important;
+    line-height: 32px;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+.alert-modal .btn {
+    width: 100%;
+    margin-top: 56px!important;
+}
+.alert-modal>* {
+    text-align: center;
+}
+.alert-modal .modal-body {
+    padding-top: 80px;
+}
+.alert-modal p.caption {
+    font-size: 16px;
+}
 
 .text-field {
     width: 100%;
@@ -884,6 +903,15 @@ label {
         width: 95%;
     }
     #codeModal>img {
+        height: 620px;
+    }
+    .alert-modal>img {
+        height: 480px!important;
+    }
+    .alert-modal {
+        width: 95%;
+    }
+    .alert-modal>img {
         height: 620px;
     }
     .modal {
