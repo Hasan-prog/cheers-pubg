@@ -582,6 +582,10 @@ video {
 }
 .winners-table {
     background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+.winners-table.active {
+    display: table;
 }
 .winners-table tr {
     background-color: rgba(37, 37, 37, 0.8);
@@ -735,8 +739,9 @@ label {
     display: none;
 }
 #textModal p {
-    font-size: 14px;
+    font-size: 12px;
     color: #fff;
+    line-height: 16px;
 }
 #textModal {
     top: 3%;
