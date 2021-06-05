@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cheers x Pubg</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1">
 </head>
 <body>
     <div class="overflow-x-hidden">
@@ -38,11 +38,11 @@
                                     ТЕЛЕФoН</span> В ПАЧКЕ
                             </h1>
                             <div class="btn-group">
-                                <button class="btn platter-btn-1">ПОДРОБНЕЕ <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <a href="#conditions" class="btn platter-btn-1">ПОДРОБНЕЕ <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.5899 16.0039L5.98193 7.39691L7.39593 5.98291L16.0029 14.5889V7.00391H18.0029V18.0039H7.00293V16.0039H14.5899Z" fill="#F2A900"/>
                                     </svg>
-                                </button>
-                                <button class="btn platter-btn-2">ПРИЗЫ</button>
+                                </a>
+                                <a href="#gifts" class="btn platter-btn-2">ПРИЗЫ</a>
                             </div>
                             <button data-target="#codeModal" class="btn platter-btn-3 modal-trigger">ЗАГРУЗИТЬ ТАЛОН <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.5 19.5H20.5V12.5H22.5V20.5C22.5 20.7652 22.3946 21.0196 22.2071 21.2071C22.0196 21.3946 21.7652 21.5 21.5 21.5H3.5C3.23478 21.5 2.98043 21.3946 2.79289 21.2071C2.60536 21.0196 2.5 20.7652 2.5 20.5V12.5H4.5V19.5ZM13.5 9.5V16.5H11.5V9.5H6.5L12.5 3.5L18.5 9.5H13.5Z" fill="#F2A900"/>
@@ -52,12 +52,12 @@
                     </div>
                     <div class="col-xl-6 col-md-4">
                         <div class="links text-right">
-                            <a href="#" class="nav-link black">Услoвия</a>
-                            <a href="#" class="nav-link black">Призы</a>
-                            <a href="#" class="nav-link black">прoдукты</a>
-                            <a href="#" class="nav-link black">видеo</a>
-                            <a href="#" class="nav-link black">Победители</a>
-                            <a href="#" class="nav-link black">faq</a>
+                            <a href="#conditions" class="nav-link black">Услoвия</a>
+                            <a href="#gifts-text" class="nav-link black">Призы</a>
+                            <a href="#circle-text" class="nav-link black">прoдукты</a>
+                            <a href="#video-text" class="nav-link black">видеo</a>
+                            <a href="#winners-text" class="nav-link black">Победители</a>
+                            <a href="#faqs-text" class="nav-link black">faq</a>
                             <a href="#" class="nav-link black">ru-uz</a>
                         </div>
                         <div class="composition-1">
@@ -69,6 +69,9 @@
             </div>
             <div class="tape">
                 <div class="text">
+                    <span>PUBG x CHEERS</span>
+                    <span>PUBG x CHEERS</span>
+                    <span>PUBG x CHEERS</span>
                     <span>PUBG x CHEERS</span>
                     <span>PUBG x CHEERS</span>
                     <span>PUBG x CHEERS</span>
@@ -128,6 +131,10 @@
                                 SMS на нoмер 3700</h4>
                             <img src="assets/img/condition2.png" alt="">
                         </div>
+                        <div class="links">
+                            <a class="white pointer balance-trigger">Деньги на телефон</a>
+                            <a class="white ml-md-4 ml-2 pointer uc-trigger">Pubg UC</a>
+                        </div>
                         <div class="arrow">
                             <svg width="51" height="28" viewBox="0 0 51 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M35.8754 1.49878L48.1561 13.7795L35.8754 26.0601" stroke="#757575" stroke-width="4"/>
@@ -154,16 +161,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="links">
-                    <a class="white" href="#">Деньги на телефон</a>
-                    <a class="white ml-4" href="#">Pubg UC</a>
-                </div>
             </div>
             <img class="bg-img" src="assets/img/bg2.png" alt="">
         </section>
         <section id="gifts">
             <div class="container">
-                <h2 class="black text-center">Призы</h2>
+                <h2 class="black text-center" id="gifts-text">Призы</h2>
                 <div class="row gifts">
                     <div class="col-md-3 col-6 g-1">
                         <img src="assets/img/gift1.png" alt="">
@@ -191,7 +194,7 @@
         </section>
         <section id="circle">
             <div class="container">
-                <h2 class="white text-center">Что покупаем?</h2>
+                <h2 class="white text-center" id="circle-text">Что покупаем?</h2>
                 <div class="row pt-5">
                     <div class="col-md-4 col-8 offset-md-1 offset-2 active-pack">
                         <img src="assets/img/pack1.png" alt="active pack">
@@ -287,7 +290,7 @@
         </section>
         <section id="video">
             <div class="container">
-                <h2 class="black text-center">Видео</h2>
+                <h2 class="black text-center" id="video-text">Видео</h2>
                 <div class="row">
     
                     <div class="col-md-10 offset-md-1 video">
@@ -310,7 +313,7 @@
         </section>
         <section id="winners">
             <div class="container">
-                <h2 class="white text-center">Победители розыгрыша</h2>
+                <h2 class="white text-center" id="winners-text">Победители розыгрыша</h2>
                 <div class="codes-control">
                     <div class="col-md-10 offset-md-1 week-triggers">
                         <h5 data-trigger-i="1" class="week-trigger active">1 неделя</h5>
@@ -325,7 +328,7 @@
                     <div class="col-md-10 offset-md-1 winners">
                         <table class="winners-table active" data-trigger="1" style="width:100%">
                             <tr>
-                              <td>21.02.20211</td>
+                              <td>1</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -351,7 +354,7 @@
                           </table>
                             <table class="winners-table" data-trigger="2" style="width:100%">
                             <tr>
-                              <td>21.02.20212</td>
+                              <td>2</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -377,7 +380,7 @@
                           </table>
                           <table class="winners-table" data-trigger="3" style="width:100%">
                             <tr>
-                              <td>21.02.20213</td>
+                              <td>3</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -403,7 +406,7 @@
                           </table>
                           <table class="winners-table" data-trigger="4" style="width:100%">
                             <tr>
-                              <td>21.02.20214</td>
+                              <td>4</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -429,7 +432,7 @@
                           </table>
                           <table class="winners-table" data-trigger="5" style="width:100%">
                             <tr>
-                              <td>21.02.20215</td>
+                              <td>5</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -455,7 +458,7 @@
                           </table>
                           <table class="winners-table" data-trigger="6" style="width:100%">
                             <tr>
-                              <td>21.02.20216</td>
+                              <td>6</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -467,7 +470,7 @@
                               <td>Телефон</td>
                             </tr>
                             <tr>
-                                <td>20.02.2021</td>
+                                <td>7</td>
                                 <td class="hide-on-mob">Гафур</td>
                                 <td>ERNT12PP03</td>
                                 <td>Игровой триггер</td>
@@ -481,7 +484,7 @@
                           </table>
                           <table class="winners-table" data-trigger="7" style="width:100%">
                             <tr>
-                              <td>21.02.20217</td>
+                              <td>7</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -507,7 +510,7 @@
                           </table>
                           <table class="winners-table" data-trigger="8" style="width:100%">
                             <tr>
-                              <td>21.02.20218</td>
+                              <td>8</td>
                               <td class="hide-on-mob">Эгамберди</td>
                               <td>EWNT6DPPTS</td>
                               <td>Игровой триггер</td>
@@ -533,12 +536,12 @@
                           </table>
                     </div>
                     <div class="buttons">
-                        <button class="btn platter-btn-1">ЗАГРУЗИТЬ ТАЛОН <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button data-target="#codeModal" class="btn platter-btn-1 modal-trigger">ЗАГРУЗИТЬ ТАЛОН <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4 19H20V12H22V20C22 20.2652 21.8946 20.5196 21.7071 20.7071C21.5196 20.8946 21.2652 21 21 21H3C2.73478 21 2.48043 20.8946 2.29289 20.7071C2.10536 20.5196 2 20.2652 2 20V12H4V19ZM13 9V16H11V9H6L12 3L18 9H13Z" fill="#F2A900"/>
                             </svg>
                             
                         </button>
-                        <button class="btn platter-btn-2">ПРИЗЫ</button>
+                        <a href="#gifts" class="btn platter-btn-2">ПРИЗЫ</a>
                     </div>
                 </div>
             </div>
@@ -546,7 +549,7 @@
         </section>
         <section id="faqs">
             <div class="container">
-                <h2 class="black text-center">У меня вопрос</h2>
+                <h2 class="black text-center" id="faqs-text">У меня вопрос</h2>
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
                         <div class="accordion">
@@ -561,22 +564,9 @@
                                     </div>
                                 </div>
                                 <p class="answer">
-                                    Мы знаем какой ты настоящий, как проводишь время и что тебе нужно на самом деле, и поэтому мы дарим тебе PUBG UC и деньги на телефон, достаточно купить пачку Cheers и найти в ней выигрышный талон. *Каждая 8 пачка выигрышная
-                                </p>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="question"  data-collapsed="0">
-                                    <h3>Чтo за Акция?</h3>
-                                    <div class="trigger">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M5 12H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>                                        
-                                    </div>
-                                </div>
-                                <p class="answer">
-                                    Мы знаем какой ты настоящий, как проводишь время и что тебе нужно на самом деле, и поэтому мы дарим тебе PUBG UC и деньги на телефон, достаточно купить пачку Cheers и найти в ней выигрышный талон. *Каждая 8 пачка выигрышная
-                                </p>
+                                   МЫ ЗНАЕМ КАКОЙ ТЫ НАСТОЯЩИЙ, КАК ПРОВОДИШЬ ВРЕМЯ И ЧТО ТЕБЕ НУЖНО НА САМОМ ДЕЛЕ, И ПОЭТОМУ МЫ ДАРИМ ТЕБЕ PUBG UC И ДЕНЬГИ НА ТЕЛЕФОН, ДОСТАТОЧНО КУПИТЬ ПАЧКУ CHEERS И НАЙТИ В НЕЙ ВЫИГРЫШНЫЙ ТАЛОН. 
+*КАЖДАЯ 8 ПАЧКА ВЫИГРЫШНАЯ 
+</p>
                             </div>
                             <div class="accordion-item">
                                 <div class="question"  data-collapsed="0">
@@ -589,7 +579,7 @@
                                     </div>
                                 </div>
                                 <p class="answer">
-                                    Мы знаем какой ты настоящий, как проводишь время и что тебе нужно на самом деле, и поэтому мы дарим тебе PUBG UC и деньги на телефон, достаточно купить пачку Cheers и найти в ней выигрышный талон. *Каждая 8 пачка выигрышная
+                                    В АКЦИИ УЧАСТВУЮТ ВСЕ УПАКОВКИ CHEERS С ЖЕЛТОЙ ЛЕНТОЙ 
                                 </p>
                             </div>
                             <div class="accordion-item">
@@ -603,12 +593,12 @@
                                     </div>
                                 </div>
                                 <p class="answer">
-                                    Мы знаем какой ты настоящий, как проводишь время и что тебе нужно на самом деле, и поэтому мы дарим тебе PUBG UC и деньги на телефон, достаточно купить пачку Cheers и найти в ней выигрышный талон. *Каждая 8 пачка выигрышная
+                                    C 15 ИЮНЯ ПО 15 АВГУСТА 
                                 </p>
                             </div>
                             <div class="accordion-item">
                                 <div class="question"  data-collapsed="0">
-                                    <h3>Как я мoгу зарегистрирoвать талoн?</h3>
+                                    <h3>ЧТО МНЕ НУЖНО СДЕЛАТЬ, ЧТОБЫ ПРИНЯТЬ УЧАСТИЕ В АКЦИИ?</h3>
                                     <div class="trigger">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -617,12 +607,12 @@
                                     </div>
                                 </div>
                                 <p class="answer">
-                                    Мы знаем какой ты настоящий, как проводишь время и что тебе нужно на самом деле, и поэтому мы дарим тебе PUBG UC и деньги на телефон, достаточно купить пачку Cheers и найти в ней выигрышный талон. *Каждая 8 пачка выигрышная
+                                   КУПИТЬ ПАЧКУ CHEERS С ЖЕЛТОЙ ЛЕНТОЙ, НАЙТИ В НЕЙ ТАЛОН С КОДОМ, ОТПРАВИТЬ КОД ЧЕРЕЗ СМС НА НОМЕР 3700
                                 </p>
                             </div>
                             <div class="accordion-item">
                                 <div class="question"  data-collapsed="0">
-                                    <h3>Какие призы я мoгу пoлучить за участие в Акции?</h3>
+                                    <h3>КАК Я МОГУ ЗАРЕГИСТРИРОВАТЬ ТАЛОН?</h3>
                                     <div class="trigger">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -631,12 +621,12 @@
                                     </div>
                                 </div>
                                 <p class="answer">
-                                    Мы знаем какой ты настоящий, как проводишь время и что тебе нужно на самом деле, и поэтому мы дарим тебе PUBG UC и деньги на телефон, достаточно купить пачку Cheers и найти в ней выигрышный талон. *Каждая 8 пачка выигрышная
+                                    ДОСТАТОЧНО ОТПРАВИТЬ НАЙДЕННЫЙ НА ТАЛОНЕ КОД ЧЕРЕЗ СМС НА НОМЕР 3700
                                 </p>
                             </div>
                             <div class="accordion-item">
                                 <div class="question"  data-collapsed="0">
-                                    <h3>Чтo делать, если вoзникли вoпрoсы, oтветoв на которые тут нет?</h3>
+                                    <h3>КАКИЕ ПРИЗЫ Я МОГУ ПОЛУЧИТЬ ЗА УЧАСТИЕ В АКЦИИ?</h3>
                                     <div class="trigger">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -645,7 +635,54 @@
                                     </div>
                                 </div>
                                 <p class="answer">
-                                    Мы знаем какой ты настоящий, как проводишь время и что тебе нужно на самом деле, и поэтому мы дарим тебе PUBG UC и деньги на телефон, достаточно купить пачку Cheers и найти в ней выигрышный талон. *Каждая 8 пачка выигрышная
+                                    ДЕНЬГИ НА ТЕЛЕФОН СУММОЙ ОТ 5 000 СУМ <br/>
+                                    PUBG UC В КОЛИЧЕСТВЕ ОТ 60 UC 
+                                </p>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="question"  data-collapsed="0">
+                                    <h3>ЧТО ДЕЛАТЬ, ЕСЛИ ВОЗНИКЛИ ВОПРОСЫ, ОТВЕТОВ НА КОТОРЫЕ ТУТ НЕТ?</h3>
+                                    <div class="trigger">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5 12H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                        
+                                    </div>
+                                </div>
+                                <p class="answer">
+                                    ЗВОНИ ПО НОМЕРУ ГОРЯЧЕЙ ЛИНИИ +998 78 120-07-60
+                                </p>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="question"  data-collapsed="0">
+                                    <h3>КАК ПОЛУЧИТЬ PUBG UC?</h3>
+                                    <div class="trigger">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5 12H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                        
+                                    </div>
+                                </div>
+                                <p class="answer">
+                                    ДЛЯ АКТИВАЦИИ ВАШЕГО КОДА НЕОБХОДИМО:<br/>
+                                    1.	ПЕРЕЙТИ НА САЙТ BIT.LY/PUBGMPM<br/>
+                                    2.	ПРОЙТИ РЕГИСТРАЦИЮ <br/>
+                                    3.	В ПОЛЕ PLAYER ID ВВЕДИТЕ СВОЙ ID ИГРОКА <br/>
+                                    4.	В ПОЛЕ REDEEM GIFTS ВВЕДИТЕ КОД СЕРТИФИКАТА, КОТОРЫЙ ВЫ ПОЛУЧИЛИ ПО СМС И НАЖМИТЕ OK
+                                </p>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="question"  data-collapsed="0">
+                                    <h3>ЧТО ДЕЛАТЬ, ЕСЛИ ВОЗНИКЛИ ВОПРОСЫ, ОТВЕТОВ НА КОТОРЫЕ ТУТ НЕТ?</h3>
+                                    <div class="trigger">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5 12H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                        
+                                    </div>
+                                </div>
+                                <p class="answer">
+                                    ЗВОНИ ПО НОМЕРУ ГОРЯЧЕЙ ЛИНИИ +998 78 120-07-60
                                 </p>
                             </div>
                         </div>
@@ -663,9 +700,9 @@
                     <a href="#" class="nav-link white modal-trigger" data-target="#textModal">Пользовательское соглашение</a>
                     <a href="#" class="nav-link white">Обратная связь</a>
                     <div class="socials">
-                        <a href=""><img src="assets/img/Instagram.svg" alt=""></a>
-                        <a href=""><img src="assets/img/Facebook.svg" alt=""></a>
-                        <a href=""><img src="assets/img/Tiktok.svg" alt=""></a>
+                        <a href="https://www.instagram.com/cheers_uz/"><img src="assets/img/Instagram.svg" alt=""></a>
+                        <a href="https://www.facebook.com/cheers.uz"><img src="assets/img/Facebook.svg" alt=""></a>
+                        <a href="https://www.tiktok.com/@cheers.uz?lang=ru-RU"><img src="assets/img/Tiktok.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -713,13 +750,83 @@
                 </div>
                 <div class="modal-body">
                   <h2 class="white text-center">Пользовательское соглашение</h2>
-                  <p>1. Термины и определения <br>
-                      1.1. Сайт - «https://cheers.uz». <br>
-                      1.2. Администрация/Владелец Сайта - Общество с ограниченной ответственностью «ПепсиКо Холдингс». <br>
-                      1.3. Пользователь – совершеннолетнее, дееспособное физическое лицо, акцептовавшее настоящее Пользовательское соглашение путем предоставления Администрации своих персональных данных в истребуемым Администрацией составе и объеме. <br>
-                      1.4. Подрядчик - юридическое или физическое лицо, действующее на основании договора с Администрацией в целях проведения в его интересах промо-акций и других мероприятий, доставки призов и осуществления иных действий, направленных на продвижение продуктов и услуг Администрации. <br>
-                      1.5. Персональные данные - любая информация, относящаяся к прямо или косвенно определённому или определяемому физическому лицу (субъекту персональных данных). В настоящем Пользовательском соглашении под персональными данными Пользователя понимаются, в том числе, указанные им лично: фамилия, имя, отчество; номер мобильного телефона; адрес электронной почты; дата рождения;; сведения об основном документе, удостоверяющем личность Пользователя, времени его выдачи и выдавшем его органе; сведения о месте жительства: регион, район, город, почтовый индекс, название улицы и номер дома; аккаунт Пользователя в социальной сети (сетях), сведения об отношении <br>
-                      1.6. Обработка персональных данных – любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</p>
+                  <p class="text-textModal">1. Общие сведения <br>
+                    1.1. Наименование Акции – «Находи PUBG UC и деньги на телефон в пачке» <br>
+                    1.2. Акция не является стимулирующей лотереей, участие в ней не связано с внесением платы за билеты Участниками и не основано на риске. <br>
+                    1.3. Участие в Акции не является обязательным.<br>
+                    1.4. Территория проведения Акции – Республика Узбекистан.<br>
+                    1.5. Организатором Акции, является Совместное предприятие в форме Общества с ограниченной ответственностью «EAST-WEST INVEST» (далее - «Организатор»). Юридический адрес: Республика Узбекистан, город Ташкент, Чиланзарский район, ул. Чорбог, дом 14., тел: (71) 230-90-69, ИНН 302512057, ОКЭД: 68202. Банк: ОПЕРУ АКБ «ASIA ALLIANCE BANK», р/с: 20214000305023225001, МФО: 01095<br>
+                    1.6. Общий срок проведения Акции. Акция проводится в течение 67 дней, с 10 июня 2021 по 15 августа 2021 года (либо до окончания призового фонда акции).<br>
+                    1.7. Способы информирования Участников Акции.<br>
+                    Участники Акции будут информироваться о Правилах и сроках проведения Акции следующими способами:
+                    - в сети Интернет на Cайте www.cheers.uz (далее – «Сайт»);<br>
+                    - по телефону «горячей линии»: +998 (78) 120-07-60 (плата за звонок по данному номеру взимается по тарифу междугородних звонков соответствующего региона на телефонные номера г. Ташкента или, в случае, если звонок производится с телефонного номера г. Ташкента или Ташкентской области, по тарифам, установленным на внутренние звонки в г. Ташкенте или Ташкентской области):<br>
+                    - Страницы в социальных сетях Cheers - Facebook и Instagram<br>
+                    2. Условия участия в Акции<br>
+                    2.1. Участниками Акции могут быть физические лица, проживающие на территории Республики Узбекистан (далее – «Участник»).<br>
+                    К участию в Акции не допускаются:<br>
+                    2.1.1. работники Организатора и лица, представляющие интересы Организатора, а также члены их семей;<br>
+                    2.1.2. лица, признанные в установленном порядке аффилированными с Организатором;<br>
+                    2.1.3. работники и представители третьих лиц, имеющих договорные отношения с Организатором и связанные с организацией и/или проведением Акции, а также члены их семей.<br>
+                    2.2. Участники Акции имеют, в частности, следующие права:<br>
+                    (I) право на получение информации об Акции в соответствии с настоящими Правилами;<br>
+                    (II) иные права, предусмотренные настоящими Правилами.<br>
+                    2.3. Участники Акции несут, в частности, следующие обязанности:<br>
+                    (I) соблюдать Правила Акции во время ее проведения;<br>
+                    (II) иные обязанности, предусмотренные настоящими Правилами.<br>
+                    2.4. Участник Акции, приобретший чипсы, произведенные под товарным знаком «CHEERS» выпускаемые в следующих упаковках:<br>
+(I) «Cheers» Шашлык 30 гр.;<br>
+(II) «Cheers» Шашлык 70 гр.;<br>
+(III) «Cheers» Шашлык 140 гр.;<br>
+(IV) «Cheers» Шашлык 220 гр.;<br>
+(V) «Cheers» Сыр 30 гр.;<br>
+(VI) «Cheers» Сыр 70 гр.;<br>
+(VII) «Cheers» Сыр 140 гр.;<br>
+(VIII) «Cheers» Сыр 220 гр.;<br>
+(IX) «Cheers» Сметана и зелень 30 гр.;<br>
+(X) «Cheers» Сметана и зелень 70 гр.;<br>
+(XI) «Cheers» Сметана и зелень 140 гр.;<br>
+(XII) «Cheers» Сметана и зелень 220 гр.;<br>
+(XII) «Cheers» Сметана и лук 30 гр.; <br>
+(XIV) «Cheers» Сметана и лук 70 гр.;<br>
+(XV) «Cheers» Сметана и лук 140 гр.;<br>
+(XVI) «Cheers» Сметана и лук 220 гр.;<br>
+(XVII) «Cheers» Зелёный лук 30 гр.;<br>
+(XVIII) «Cheers» Зелёный лук 70 гр.;<br>
+(XIX) «Cheers» Зелёный лук 140 гр.;<br>
+(XX) «Cheers» Зелёный лук 220 гр.;<br>
+(XXI) «Cheers» Томат 30 гр.;<br>
+(XXII) «Cheers» Томат 70 гр.;<br>
+(XXIII) «Cheers» Томат 140 гр.;<br>
+(XXIV) «Cheers» Томат 220 гр.;<br>
+(XXV) «Cheers» Чили-васаби 30 гр.;<br>
+(XXVI) «Cheers» Чили-васаби 70 гр.;<br>
+(XXVII) «Cheers» Стейк 30 гр.;<br>
+(XXVIII) «Cheers» Стейк 70 гр.;<br>
+(XXIX) «Cheers» Курица гриль 30 гр.;<br>
+(XXX) «Cheers» Курица гриль 70 гр.;<br>
+2.5. Призовой фонд Акции формируется за счет собственных средств Организатора и состоит из:<br>
+Телефон Samsung: 8 шт<br>
+Игровые триггеры: 32 шт<br>
+Пополнение баланса мобильных счетов на сумму 5 000 сум: 400 000 шт<br>
+Пакеты на PUBG UC: 80 000 шт<br>
+2.6. Для участия в Акции и получения призов необходимо:<br>
+В период с 10 июня 2021 года в течение 67 дней приобрести продукцию с промо-этикеткой, содержащей наименование Акции и информацию об Акции, найти талон с кодом в промо-упаковке (количество талонов ограничено), <b>отправить указанный на талоне код посредством СМС-сообщения на короткий номер 3700.</b> Получить ответное СМС-сообщение с указанием приза. <br>
+<i>Призы могут отличаться по внешнему виду от изображенных на рекламных материалах.</i><br>
+
+                2.7 Выдача материальных призов победителям осуществляется исключительно по предоставлению талона с собедным кодом. <br>
+                <b>3. Информация о талонах с кодом.</b><br/>
+                3.1 Талон с нанесенным на нём кодом упакован в индивидуальную герметичную стерильную пищевую упаковку. Каждый талон является призовым. Количество талонов ограничено. <i>Каждая 8 упаковка выигрышная.</i><br/>
+                <b>4.Прочее</b><br/>
+                4.1. Факт участия в Акции подразумевает, что его Участники согласны на предоставление Организатору своих персональных данных, в том числе фамилии, имени, отчества, пола, возраста, номера контактного телефона, адреса электронной почты, другой персональной информации, полученной Организатором в ходе Акции, и их обработку Организатором Акции, включая сбор, систематизацию, накопление, хранение (в том числе на случай предъявления претензий), уточнение (обновление, изменение), использование, индивидуального общения с Участниками в целях, связанных с проведением настоящей Акции), распространение, обезличивание, блокирование, уничтожение персональных данных в целях, связанных с проведением настоящей Акции. Персональные данные Участников будут использоваться исключительно Организатором в связи с проведением настоящей Акции, и не будут предоставляться никаким третьим лицам для целей, не связанных с настоящей Акцией. Указанное согласие может быть отозвано Участником в любое время путем письменного уведомления, направленного в адрес Организатора заказным почтовым отправлением. В отношении всех персональных данных, предоставленных Участниками в ходе Акции, Организатором или уполномоченными им лицами будут соблюдаться режим их конфиденциальности, и приниматься меры по обеспечению безопасности персональных данных.<br/>
+                4.2. Участник Акции, сообщивший Организатору любую информацию, в том числе персональные данные, несет все риски и ответственность за достоверность такой информации.<br/>
+                4.3. Имена, фамилии, фото - и видеоматериалы с изображением Победителей, связанные с участием в Акции, а также интервью и иные материалы о них могут быть использованы Организатором для выполнения обязательств по проведению Акции или в иных целях, не противоречащих законодательству РУз.<br/>
+                4.4. Участие в Акции подразумевает ознакомление и согласие Участников Акции с настоящими Правилами.<br/>
+                4.5. Участник Акции может в любой момент отказаться от участия в Акции, направив соответствующее заявление Организатору Акции заказным почтовым отправлением. Заявление составляется в свободной форме и должно содержать ФИО Участника, серию и номер документа, удостоверяющего личность и номер контактного телефона.<br/>
+                4.6. Организатор имеет право изменить Правила Акции в любой момент, путем размещения соответствующей информации в сети Интернет на Сайте <a href="www.cheers.uz" style="font-size:16px;">www.cheers.uz</a><br/>
+                4.7. Во всем, что не предусмотрено настоящими Правилами, Организатор и Участники Акции руководствуются действующим законодательством Республики Узбекистан.<br/>
+
+
                 </div>
               </div>
             </div>
@@ -769,11 +876,29 @@
           <div class="overlay-full"></div>
     </div>
 
+    <div class="gift_modal_1 gift_modal">
+        <h4 class="black">oтправь SMS <br> с талoна на нoмер 3700, <br> пoлучи ссылку на PUBG UC</h4>
+        <img src="assets/img/gift_modal_1_label.png" alt="">
+    </div>
+    <div class="gift_modal_2 gift_modal">
+        <h4 class="white">SMS на нoмер 3700, <br>
+            баланс пoпoлнится <br>
+            в течении 5 минут</h4>
+        <img src="assets/img/gift_modal_2_label.png" alt="">
+    </div>
+    <div class="overlay-mob"></div>
+
     <!-- SCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script>
+        $('a[href^="#"]').click(function (e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            });
+        });
         $(document).ready(function() {
             $('.segment').mouseover(function() {
                 $(this).parent().css({'transform': 'scale(1.2)'});
@@ -837,6 +962,18 @@
             // Accordion login
             $('.question').click(function (e) {
                 e.stopPropagation();
+
+                if ($(this).data('collapsed') == 1) {
+                    $('.question').data('collapsed', 0);
+                    $('.question').next().slideUp(100);
+                    $('.question').find('.trigger').css({'transform': 'rotate(0deg)'});
+                    return;
+                }
+
+                $('.question').data('collapsed', 0);
+                $('.question').next().slideUp(100);
+                $('.question').find('.trigger').css({'transform': 'rotate(0deg)'});
+
                 if ($(this).data('collapsed') == 0) {
                     $(this).next().slideDown(100);
                     $(this).find('.trigger').css({'transform': 'rotate(45deg)'});
@@ -872,7 +1009,67 @@
                 var i = $(this).data('trigger-i');
                 $('.winners-table').hide();
                 $('.winners-table[data-trigger="' + i + '"]').show();
+                $('.week-trigger').removeClass('active');
+                $(this).addClass('active');
             });
+
+            if ($(window).width() > 960) {
+                var balance_trigger = false;
+                var uc_trigger = false;
+                $('.balance-trigger').click(function (e){
+                    if (!balance_trigger) {
+                        var elm = $(this);
+                        var xPos = elm.offset().left - 260;
+                        var yPos = elm.offset().top + 20;
+
+                        $('.gift_modal_1').show();
+                        $('.gift_modal_1').css({'left': xPos, 'top': yPos});
+                        balance_trigger = true;
+                    } else {
+                        $('.gift_modal_1').hide();
+                        balance_trigger = false;
+                    }
+                });
+                $('.uc-trigger').click(function (e){
+                    if (!uc_trigger) {
+                        var elm = $(this);
+                        var xPos = elm.offset().left + 35;
+                        var yPos = elm.offset().top + 15;
+
+                        $('.gift_modal_2').show();
+                        $('.gift_modal_2').css({'left': xPos, 'top': yPos});
+                        uc_trigger = true;
+                    } else {
+                        $('.gift_modal_2').hide();
+                        uc_trigger = false;
+
+                    }
+                });
+            } else {
+                var balance_trigger = false;
+                var uc_trigger = false;
+                $('.balance-trigger').click(function (e){
+                    $('.gift_modal_1').show();
+                    $('.overlay-mob').show();
+                    balance_trigger = true;
+                });
+                $('.uc-trigger').click(function (e){
+                    $('.gift_modal_2').show();
+                    $('.overlay-mob').show();
+                    uc_trigger = true;
+                });
+
+                $('.overlay-mob').click(function () {
+                    if (uc_trigger) {
+                        $('.gift_modal_2').hide();
+                        $(this).hide();
+                    }
+                    if (balance_trigger) {
+                        $('.gift_modal_1').hide();
+                        $(this).hide();
+                    }
+                });
+            }
             
         });
     </script>

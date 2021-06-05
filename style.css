@@ -129,7 +129,7 @@ a:hover {
     color: #757575;
 }
 
-button.btn {
+.btn {
     font-family: "Druk";
     font-size: 26px;
     font-weight: medium;
@@ -142,9 +142,10 @@ button.btn {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    text-decoration: none;
 
 }
-button.btn:hover {
+.btn:hover {
     color: #fff;
     background-color: rgba(242, 169, 0, 0.15);
 }
@@ -245,9 +246,11 @@ img {
     font-family: "Druk";
     font-weight: 900;
     color: #fff;
+    white-space: nowrap;
 }
 .tape .text {
     margin-left: -15px;
+    display: flex;
 }
 section {
     position: relative;
@@ -287,6 +290,9 @@ section {
 }
 .c-2 .info h4 {
     margin-bottom: -8px;
+}
+.c-3 .info img {
+    transform: rotate(-2.47deg);
 }
 .c-3 .info h4 {
     transform: rotate(-2.47deg);
@@ -520,7 +526,7 @@ footer .nav-link:hover {
     color: #757575;
 }
 .packs-info {
-    margin-top: 32px;
+    margin-top: 48px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -747,11 +753,27 @@ label {
     top: 3%;
     width: 730px;
 }
+#textModal img {
+    height: 630px;
+}
 #textModal .modal-dialog {
     max-width: 630px;
 }
+.text-textModal {
+    height: 45vh;
+    overflow-y: scroll;
+}
 .overflow-x-hidden {
     overflow-x: hidden;
+}
+.overlay-mob {
+    position: fixed;
+    background:rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    top: 0;
+    display: none;
 }
 
 
@@ -783,7 +805,7 @@ label {
         right: 10%;
         bottom: 10%
     }
-    button.btn {
+    .btn {
         padding: 6px 0 7px 0;
     }
     .c-1 .info img {
@@ -910,6 +932,12 @@ label {
     #codeModal>img {
         height: 620px;
     }
+    .links {
+        white-space: nowrap;
+    }
+    .links a {
+        font-size: 22px;
+    }
     .alert-modal>img {
         height: 480px!important;
     }
@@ -928,6 +956,31 @@ label {
     }
     .fire {
         display: none;
+    }
+    .tape span {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    section {
+        padding-top: 32px;
+    }
+    #winners .buttons {
+        display: block;
+    }
+    .codes-control .buttons .btn {
+        width: 100%;
+        margin-top: 14px;
+    }
+    .gift_modal {
+        position: fixed!important;
+        left: 50%!important;
+        top: 50%!important;
+        transform: translate(-50%, -50%)!important;
+        display: none;
+        z-index: 6!important;
     }
 }
 
@@ -1030,4 +1083,48 @@ label {
     #textModal>img {
         height: 580px;
     }
+}
+
+@media (min-width: 1300px) {
+    .bg-img {
+        /* width: 100%; */
+    }
+}
+.gift_modal {
+    width: 280px;
+    text-align: center;
+    height: 280px;
+    position: absolute;
+    padding-top: 70px;
+    z-index: 5;
+    display: none;
+}
+.gift_modal_1 {
+    background-size: contain;
+    background-image: url(assets/img/gift_modal_1.png);
+    background-repeat: no-repeat;
+}
+.gift_modal_2 {
+    background-image: url(assets/img/gift_modal_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.gift_modal .bg {
+    position: absolute;
+}
+.gift_modal h4 {
+    z-index: 2;
+}
+.gift_modal_1 img {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+}
+.gift_modal_2 img {
+    position: absolute;
+    right: -10px;
+    bottom: 20px;
+}
+.pointer {
+    cursor: pointer;
 }
